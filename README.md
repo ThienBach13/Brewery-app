@@ -1,22 +1,15 @@
-# Breweries App
+# Brewery App
 
-Fetch, display, and search for brewery companies from the given API endpoint, using React and TypeScript
+This web application fetches data from the Open Brewery DB AP.Users can search for breweries by name and browse a list of available options. Additionally, they can view detailed information about individual breweries.
 
-## Requirements
+## Features
 
-1. Check the documentation at [https://www.openbrewerydb.org/documentation](https://www.openbrewerydb.org/documentation) Fetch and display information of all the companies.
+- **Search:** Users can search for breweries by name using the search bar.
+- **Brewery List:** Displays a list of breweries with basic information, such as name, type, and location.
+- **Brewery Details:** Clicking on a brewery's name redirects the user to a detailed page displaying additional information about the brewery.
 
-2. Have proper display and routing that user can switch to/back from specific company's detailed page
+## Technologies Used
 
-3. Create search component to enable user to input text and search for companies by name.
-
-4. Use MaterialUI to make your design more appealing and responsive
-
-5. Deploy your application and rewrite README file
-
-## Optional
-
-6. Implement performance optimization where applicable
-7. Use the queries listed in the documentation to sort and limit the returned data and build pagination feature.
-
-8. Create a contact form so that user can send question along with their contact information.
+- React
+- React Router
+- MaterialUI
